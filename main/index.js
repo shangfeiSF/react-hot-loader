@@ -4,7 +4,7 @@ import {Router, browserHistory} from 'react-router'
 
 import './assets/index.css'
 
-import routes from './routes/index'
+import routes from './routes/config'
 
 var content = <Router routes={routes} history={browserHistory}/>
 var root = document.getElementById('example')

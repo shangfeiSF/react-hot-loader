@@ -1,13 +1,13 @@
 import React from 'react'
 
-let About = React.createClass({
+let Home = React.createClass({
   render() {
     return (
       <div className="content">
-        <h2>This is Index page!</h2>
+        <h2>This is Home page!</h2>
       </div>
     )
   }
 })
 
-export default About
+export default Home
