@@ -1,5 +1,5 @@
-.homelink, .hellolink, .formlink, .buttonlink, .timerlink {
-    margin: 10px;
+.link {
+    margin: 12px;
 }
 
 .formwrapper {
