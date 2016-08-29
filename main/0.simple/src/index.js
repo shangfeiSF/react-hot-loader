@@ -6,6 +6,9 @@ import './assets/index.css'
 
 import routes from './routes/config'
 
+import historyConfig from '../../historyConfig'
+
+var history = historyConfig(browserHistory, '0.simple')
 var content = <Router routes={routes} history={browserHistory}/>
 var root = document.getElementById('example')
 
